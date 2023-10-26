@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "transaction EDA"
+version = "0.1.0"
+description = "EDA for finacial transactions"
+authors = ["gibbstp <gibbstp@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+polars = "^0.19.2"
+pandas = "^2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
